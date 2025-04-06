@@ -28,6 +28,9 @@ namespace MauiAppTempoAgora
                                          $"Longitude: {t.lon} \n" +
                                          $"Nascer do Sol: {t.sunrise} \n" +
                                          $"Por do Sol: {t.sunset} \n" +
+                                         $"Descrição do clima: {t.description} \n" +
+                                         $"Velocidade do vento: {t.speed} \n" +
+                                         $" Visibilidade: {t.visibility} \n" +
                                          $"Temp Máx: {t.temp_max} \n" +
                                          $"Temp Min: {t.temp_min} \n";
 
